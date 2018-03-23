@@ -7,10 +7,10 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  
- Time complexity : O(m)O(m). A total of mm nodes need to be traversed. Here, mm represents the minimum number of nodes from the
+ Time complexity : O(m). A total of mm nodes need to be traversed. Here, mm represents the minimum number of nodes from the
  two given trees.
- Space complexity : O(m)O(m). The depth of the recursion tree can go upto mm in the case of a skewed tree. In average case, depth
- will be O(logm)O(logm).
+ Space complexity :O(m). The depth of the recursion tree can go upto mm in the case of a skewed tree. In average case, depth
+ will be O(logm).
  
 */
 class Solution {
